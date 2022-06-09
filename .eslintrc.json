@@ -42,6 +42,7 @@
         }
       }
     ],
+    "react/jsx-props-no-spreading": "off",
     "class-methods-use-this": "off",
     "import/prefer-default-export": "off",
     "no-shadow": "off",
@@ -79,10 +80,16 @@
       }
     ],
     "react/react-in-jsx-scope": "off",
+    "react/no-unused-prop-types": "off",
+    "react/require-default-props": "off",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": [
       "error"
-    ]
+    ],
+    "react/jsx-no-bind": ["error", {
+      "allowArrowFunctions": true,
+      "allowFunctions": true
+    }]
   },
   "settings": {
     "import/resolver": {
